@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+body {
+	background: url('https://images.unsplash.com/photo-1527904219733-fddc74937915?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 6%;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: #2D301B;
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+}
+
+h3{
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: #2D301B;;
+
+}
+
+hr {
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.info {
+	width: 50%;
+	background-color: #fff;
+	margin-left: 15px;
+	padding: 20px;
+	border: 5px solid #c1929c;
+	font-family: 'Montserrat', sans-serif;
+}
+
+span {
+	color: #65698e;
+	letter-spacing: 2px;
+	line-height: 35px;
+}
+
+.todo-link {
+	padding: 10px 20px;
+	margin: 10px auto;
+	text-decoration: none;
+	color: green;
+}

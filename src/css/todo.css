@@ -1,0 +1,47 @@
+li{
+	font-size:20px;
+	list-style: none;
+	font-family: 'Roboto Mono', monospace;
+	padding: 10px;
+	margin:10px;
+	margin-bottom: 2px;
+}
+
+button{
+	border: 0;
+    padding: 8px 20px;
+    margin:10px 20px;
+	border-radius: 5px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 15px;
+	background-color:#722A36;
+	color: #fff;
+    font-weight: 100;
+
+  
+}
+
+button:hover{
+	background-color:#EFDED4;
+	color:#722A36;
+	border:2px solid #722A36;
+}
+
+.logout{
+	float:right;
+}
+
+.fas .fa-check{
+   background-color:green;
+}
+
+input[type="submit"] {
+    background-color: #338316;
+	color: white;
+	padding: 20px 10px;
+}
+
+a{
+	color:green;
+}
