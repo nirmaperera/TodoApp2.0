@@ -1,22 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nirma Perera - Practical Web Development Project
 
-## Available Scripts
+GOAL: A to-do list web app (website) that can, create a new user,log in as a user (no password required, just have someone type in their name),be able to see and interact with their to-do items (and ONLY THEIRS, user should NOT be able to see other to-do items),create new item(s),see their item(s),mark item(s) as done, delete item(s) altogether, and log out.
 
-In the project directory, you can run:
+○ IMPORTANT: the data should be persistent.
 
-### `npm start`
+To Run Locally
+ 1. clone Repo
+ 2. npm install
+ 3. npm start
 
-Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+live Demo: https://nirma-todos.herokuapp.com
