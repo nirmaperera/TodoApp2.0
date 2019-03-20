@@ -99,15 +99,15 @@ class Todo extends Component {
             <div>
                 <h1 className="nameHeader"> Hello, {this.props.location.state.username} !</h1>;
 				<div className="container">
-                    <div class="logout">
-                        <NavLink to="/logout"> <button><i class="fas fa-sign-out-alt"></i></button></NavLink>
+                    <div className="logout">
+                        <NavLink to="/logout"> <button><i className="fas fa-sign-out-alt"></i></button></NavLink>
                     </div>
-                    <h3> To-Dos <i class="fas fa-pencil-alt"></i></h3>
+                    <h3> To-Dos <i className="fas fa-pencil-alt"></i></h3>
                     <hr />
                     {this.state.todos.map((todo) => (
                         <li key={todo.id} style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}> {todo.content}
-                            <button onClick={() => { this.handleComplete(todo); }}><i class="fas fa-check"></i></button>
-                            <button onClick={() => { this.handleDelete(todo); }}> <i class="fas fa-trash-alt"></i> </button>
+                            <button onClick={() => { this.handleComplete(todo); }}><i className="fas fa-check"></i></button>
+                            <button onClick={() => { this.handleDelete(todo); }}> <i className="fas fa-trash-alt"></i> </button>
                         </li>
                     ))}
                     <form onSubmit={this.handleSubmit}>
